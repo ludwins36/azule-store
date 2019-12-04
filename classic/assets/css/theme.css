@@ -14066,6 +14066,7 @@ body#checkout #footer {
 
 .header_omg_im_scrolled {
     z-index: 99999999 !important;
+    position: relative !important;
 }
 
 @media (min-width: 786px) {
