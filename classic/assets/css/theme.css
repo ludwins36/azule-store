@@ -13230,12 +13230,12 @@ body>.lenin_header {
     font-size: 28px;
 }
 
-.items_cuadrado:nth-last-of-type(0){
-    background: #f2685c;
+.items_cuadrado:nth-of-type(0){
+    background: #f2685c !important;
 }
 
-.items_cuadrado:nth-last-of-type(1){
-    background: #f3d99b;
+.items_cuadrado:nth-of-type(1){
+    background: #f3d99b !important;
 }
 
 .amarillo {
