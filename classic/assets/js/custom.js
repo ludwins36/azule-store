@@ -437,12 +437,13 @@ $('#delivery').append('<label><input type="checkbox" id="cbox1" value="first_che
 
 $('#cbox1').on('change', function() {
  var xx = $('#delivery_message').val();
- var xx2 = ", Articulo(s) para regalo";
+ var xx2 = "Articulo(s) para regalo";
 
  
     if ($(this).is(':checked') ) {
         
-        $('#delivery_message').val(xx + xx2);
+        // $('#delivery_message').val(xx + xx2);
+        $('#delivery_message').val(xx2);
         
         
         
@@ -451,13 +452,7 @@ $('#cbox1').on('change', function() {
             var x55 = xx.slice(0, -25);
 
          $('#delivery_message').val(x55);
-
-
-
-
         
-        
-//         var xx = $('#delivery_message').val();
 
 //         $('#delivery_message').val(xx)
 //         var desel = 'Esto no es para un regalo';
