@@ -13230,9 +13230,36 @@ body>.lenin_header {
     font-size: 28px;
 }
 
-.cuadrado1{
-    background: black !important;
+.cuadrado_custom {
+    flex: auto;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
 }
+
+.cuadrado1{
+    background: #f2685c !important;
+}
+
+.cuadrado2{
+    background: #f3d99b !important;
+}
+
+
+.cuadrado3{
+    background: #8276a6 !important;
+}
+
+
+.cuadrado4{
+    background: #77bd94 !important;
+}
+
 
 
 .items_cuadrado:nth-of-type(1){
