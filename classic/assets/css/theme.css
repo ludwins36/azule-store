@@ -14139,7 +14139,7 @@ body#checkout #footer {
 
 @media (min-width: 786px) {
     #header.header_omg_im_scrolled {
-        /* top: 60px !important; */
+        top: 60px !important;
         background: white;
     }
 }
