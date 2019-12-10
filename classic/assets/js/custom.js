@@ -1130,8 +1130,8 @@ $(".category-cover").wrap("<div class='principal_categoria'></div>");
 $(document).ready(function () {
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function () {
-		if ($(window).height() >= 1000) {
-			console.log($(window).height());
+		console.log($(window).height());
+		if ($(window).height() > 1000) {
 			console.log($(window).width());
 			// if ($(window).scrollTop() > 10) {
 			// 	// console.log($(window).scrollTop());
