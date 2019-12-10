@@ -13862,7 +13862,7 @@ main header.page-header h1 {
 
 @media screen and (max-width:785px) {
     .header_omg_im_scrolled {
-        top: 0 !important;
+        /* top: 0 !important; */
     }
 
     .blockcart {
@@ -14139,7 +14139,7 @@ body#checkout #footer {
 
 @media (min-width: 786px) {
     #header.header_omg_im_scrolled {
-        top: 60px !important;
+        /* top: 60px !important; */
         background: white;
     }
 }
@@ -14417,7 +14417,7 @@ body#product #main .row .col-md-6:nth-child(2) {
 
 
 body#my-account .header_omg_im_scrolled {
-    top: 0 !important;
+    /* top: 0 !important; */
 }
 
 
