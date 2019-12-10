@@ -13928,7 +13928,7 @@ main header.page-header h1 {
 
 @media (min-width: 786px) {
     #header.header_omg_im_scrolled .header-top {
-        padding-top: 10px !important;
+        /* padding-top: 10px !important; */
     }
 }
 
