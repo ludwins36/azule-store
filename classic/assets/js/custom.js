@@ -104,6 +104,9 @@ $(document).ready(function(){
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function(){
 	    if ( $(window).scrollTop() > 10 ){
+			console.log($(window).scrollTop());
+			console.log($(window).height());
+			console.log($(window).width());
 			$('.lenin_header').addClass('lenin_header_fixed');
 		} else {
 			$('.lenin_header').removeClass('lenin_header_fixed');
