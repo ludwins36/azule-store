@@ -1133,7 +1133,7 @@ $(document).ready(function () {
 		console.log($(window).height());
 		// if ($(window).height() > 1000) {
 			console.log($(window).width());
-			if ($(window).scrollTop() > 10) {
+			if ($(window).scrollTop() > 1) {
 				$('#header').addClass("header_omg_im_scrolled");
 				// 	// console.log($(window).scrollTop());
 
