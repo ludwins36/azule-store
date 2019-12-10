@@ -13203,7 +13203,6 @@ main #header .header-nav,
 .header_lenin,
 body>.lenin_header #search_widget,
 body>.lenin_header {
-    display: block;
 }
 
 #_desktop_user_info .logout {

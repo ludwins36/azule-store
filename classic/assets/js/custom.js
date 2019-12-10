@@ -1133,14 +1133,17 @@ $(document).ready(function () {
 		console.log($(window).height());
 		if ($(window).height() > 1000) {
 			console.log($(window).width());
-			// if ($(window).scrollTop() > 10) {
-			// 	// console.log($(window).scrollTop());
+			if ($(window).scrollTop() > 10) {
+				$('#header').addClass("header_omg_im_scrolled");
+				// 	// console.log($(window).scrollTop());
 
-			// 	$('.lenin_header').addClass('lenin_header_fixed');
-			// } else {
-			// 	$('.lenin_header').removeClass('lenin_header_fixed');
+				$('.lenin_header').addClass('lenin_header_fixed');
+			} else {
+				$('.lenin_header').removeClass('lenin_header_fixed');
+				$('#header').removeClass("header_omg_im_scrolled");
 
-			// }
+
+			}
 		}
 
 	});
