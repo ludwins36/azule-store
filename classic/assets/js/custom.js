@@ -1131,7 +1131,7 @@ $(document).ready(function () {
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function () {
 		console.log($(window).height());
-		if ($(window).height() > 1000) {
+		// if ($(window).height() > 1000) {
 			console.log($(window).width());
 			if ($(window).scrollTop() > 10) {
 				$('#header').addClass("header_omg_im_scrolled");
@@ -1144,7 +1144,7 @@ $(document).ready(function () {
 
 
 			}
-		}
+		// }
 
 	});
 });
