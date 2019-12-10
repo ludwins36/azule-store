@@ -1130,21 +1130,21 @@ $(".category-cover").wrap("<div class='principal_categoria'></div>");
 $(document).ready(function () {
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function () {
-		console.log($(window).height());
-		console.log($(window).width());
-		// if ($(window).height() > 1000) {
+		console.log($(window).scrollBtton());
+		// console.log($(window).width());
+		if ($(window).height() > 1000) {
 			if ($(window).scrollTop() > 1) {
 				$('#header').addClass("header_omg_im_scrolled");
 				// 	// console.log($(window).scrollTop());
 
 				$('.lenin_header').addClass('lenin_header_fixed');
-			} else {
+			} else if($(window).scrollBtton() > 1) {
 				$('.lenin_header').removeClass('lenin_header_fixed');
 				$('#header').removeClass("header_omg_im_scrolled");
 
 
 			}
-		// }
+		}
 
 	});
 });
