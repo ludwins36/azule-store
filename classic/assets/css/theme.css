@@ -13862,7 +13862,7 @@ main header.page-header h1 {
 
 @media screen and (max-width:785px) {
     .header_omg_im_scrolled {
-        /* top: 0 !important; */
+        top: 0 !important;
     }
 
     .blockcart {
@@ -13928,7 +13928,7 @@ main header.page-header h1 {
 
 @media (min-width: 786px) {
     #header.header_omg_im_scrolled .header-top {
-        /* padding-top: 10px !important; */
+        padding-top: 10px !important;
     }
 }
 
@@ -14134,25 +14134,15 @@ body#checkout #footer {
 
 .header_omg_im_scrolled {
     z-index: 99999999 !important;
-    /* position: relative !important; */
+    position: relative !important;
 }
 
 @media (min-width: 786px) {
     #header.header_omg_im_scrolled {
-        /* top: 60px !important; */
-        /* aqui */
-        transition: all 0.3s ease-in;
+        top: 60px !important;
         background: white;
     }
-
-    /* .header_custom{
-         top: 60px !important;
-        transition: all 0.3s ease-in;
-        background: white;
-    } */
 }
-
-
 
 #wishlist_button {
     text-transform: none;
@@ -14427,7 +14417,7 @@ body#product #main .row .col-md-6:nth-child(2) {
 
 
 body#my-account .header_omg_im_scrolled {
-    /* top: 0 !important; */
+    top: 0 !important;
 }
 
 
