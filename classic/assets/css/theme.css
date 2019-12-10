@@ -15232,7 +15232,7 @@ body#address .address-form div.form-group:nth-child(12).row {
 }
 
 #cms .breadcrumb.hidden-sm-down {
-    display: none;
+    /* display: none; */
 }
 
 #cms #main .page-header,
