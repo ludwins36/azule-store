@@ -1133,11 +1133,11 @@ $(document).ready(function () {
 		// console.log($(window).height());
 		console.log($("#_desktop_cart").length);
 		if ($(this).scrollTop() > 10) {
-			$('#header').addClass("header_omg_im_scrolled");
+			$('#header').addClass("header_custom_init");
 			$('.lenin_header').addClass('lenin_header_fixed');
 		} else {
 			$('.lenin_header').removeClass('lenin_header_fixed');
-			$('#header').removeClass("header_omg_im_scrolled");
+			$('#header').removeClass("header_custom_init");
 		}
 	});
 });

@@ -13202,8 +13202,7 @@ main #header .header-nav,
 
 .header_lenin,
 body>.lenin_header #search_widget,
-body>.lenin_header {
-}
+body>.lenin_header {}
 
 #_desktop_user_info .logout {
     display: none;
@@ -13241,59 +13240,59 @@ body>.lenin_header {
     font-size: 28px;
 }
 
-.cuadrado1{
+.cuadrado1 {
     background: #f2685c !important;
 }
 
-.cuadrado2{
+.cuadrado2 {
     background: #f3d99b !important;
 }
 
 
-.cuadrado3{
+.cuadrado3 {
     background: #8276a6 !important;
 }
 
 
-.cuadrado4{
+.cuadrado4 {
     background: #77bd94 !important;
 }
 
-.cuadrado5{
+.cuadrado5 {
     background: #1c3360 !important;
 }
 
-.cuadrado6{
+.cuadrado6 {
     background: #ac9231 !important;
 }
 
-.cuadrado7{
+.cuadrado7 {
     background: #ee813d !important;
 }
 
-.cuadrado8{
+.cuadrado8 {
     background: #708ab9 !important;
 }
 
 
 
-.items_cuadrado:nth-of-type(1){
+.items_cuadrado:nth-of-type(1) {
     background: #efec6c !important;
 }
 
-.items_cuadrado:nth-of-type(2){
+.items_cuadrado:nth-of-type(2) {
     background: #708ab9 !important;
 }
 
-.items_cuadrado:nth-of-type(3){
+.items_cuadrado:nth-of-type(3) {
     background: #c2b8bb !important;
 }
 
-.items_cuadrado:nth-of-type(4){
+.items_cuadrado:nth-of-type(4) {
     background: #f3d99b !important;
 }
 
-.items_cuadrado:nth-of-type(5){
+.items_cuadrado:nth-of-type(5) {
     background: #f2685c !important;
 }
 
@@ -13852,7 +13851,14 @@ main header.page-header h1 {
     margin: 1.563rem;
 }
 
-
+.header_custom_init {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+    background: white;
+}
 
 
 
