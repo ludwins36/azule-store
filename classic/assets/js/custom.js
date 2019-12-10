@@ -1130,15 +1130,15 @@ $(".category-cover").wrap("<div class='principal_categoria'></div>");
 $(document).ready(function () {
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function () {
-		console.log($(window).scrollBtton());
-		// console.log($(window).width());
+		console.log($(window).height());
+		console.log($(window).width());
 		if ($(window).height() > 1000) {
-			if ($(window).scrollTop() > 1) {
+			if ($(window).scrollTop() > 10) {
 				$('#header').addClass("header_omg_im_scrolled");
 				// 	// console.log($(window).scrollTop());
 
 				$('.lenin_header').addClass('lenin_header_fixed');
-			} else if($(window).scrollBtton() > 1) {
+			} else if($(window).scrollTop() = 0) {
 				$('.lenin_header').removeClass('lenin_header_fixed');
 				$('#header').removeClass("header_omg_im_scrolled");
 
