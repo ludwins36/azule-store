@@ -1132,7 +1132,7 @@ $(document).ready(function () {
 	$(window).on('scroll', function () {
 		if ($(window).height() >= 1000) {
 			console.log($(window).height());
-			console.log($(window).width());0
+			console.log($(window).width());
 			if ($(window).scrollTop() > 10) {
 				// console.log($(window).scrollTop());
 
