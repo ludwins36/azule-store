@@ -1131,7 +1131,7 @@ $(document).ready(function () {
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function () {
 		// console.log($(window).height());
-		console.log($("#_desktop_contact_link").length);
+		console.log($("#_desktop_cart").length);
 		if ($(this).scrollTop() > 10) {
 			$('#header').addClass("header_omg_im_scrolled");
 			$('.lenin_header').addClass('lenin_header_fixed');
