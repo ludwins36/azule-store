@@ -103,10 +103,10 @@ $( ".category-cover" ).wrap( "<div class='principal_categoria'></div>" );
 $(document).ready(function(){
 	// eliminar esto cuando la pantalla tenga cierto tamaño
 	$(window).on('scroll', function(){
-	    if ( $(window).scrollTop() > 200 ){
-			// $('.lenin_header').addClass('lenin_header_fixed');
+	    if ( $(window).scrollTop() > 100 ){
+			$('.lenin_header').addClass('lenin_header_fixed');
 		} else {
-			// $('.lenin_header').removeClass('lenin_header_fixed');
+			$('.lenin_header').removeClass('lenin_header_fixed');
 
 		}
 	});
