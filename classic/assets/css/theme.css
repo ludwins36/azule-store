@@ -12089,7 +12089,7 @@ li.product-flag:not(.discount):not(.on-sale)~li.product-flag {
     }
 
     .links .title {
-        padding: .625rem;
+        padding: 1rem;
         border-bottom: 1px solid #f6f6f6;
         cursor: pointer
     }
