@@ -31,7 +31,7 @@
     position: absolute;
     top: 3px;
     left: 5px;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 400
 }
 
@@ -158,7 +158,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 20px;
 }
 
 figure {
@@ -362,7 +362,7 @@ html {
 }
 
 html {
-    font-size: 16px;
+    font-size: 20px;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent
 }
@@ -555,7 +555,7 @@ legend {
     width: 100%;
     padding: 0;
     margin-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: inherit
 }
 
@@ -13958,7 +13958,7 @@ position: fixed;
     .items_cuadrado {
         width: 100%;
         height: 70px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .t_items {
@@ -14576,7 +14576,7 @@ h3.lista {
 
 .creado {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .raya {
