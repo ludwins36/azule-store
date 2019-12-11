@@ -1132,7 +1132,7 @@ $(document).ready(function () {
 	$(window).on('scroll', function () {
 		// console.log($(window).height());
 		var d = $(document).height() - $(this).scrollTop() - $(this).height();
-		console.log($("#_desktop_cart"));
+		console.log($("#_desktop_cart").is(':visible'));
 		console.log(d);
 		if ($(this).scrollTop() > 10) {
 			$('#header').addClass("header_omg_im_scrolled");
