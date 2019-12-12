@@ -15306,3 +15306,7 @@ body#address .address-form div.form-group:nth-child(12).row {
 
 
 }
+
+.price, .regular-price{
+    font-size: .9rem !important;
+}
