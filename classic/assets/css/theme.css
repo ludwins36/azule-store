@@ -7450,7 +7450,7 @@ a:hover {
 
 p {
     font-size: .9375rem;
-    color: #4a4a4a;
+    color: #4a4a4a !important;
     font-weight: 400
 }
 
