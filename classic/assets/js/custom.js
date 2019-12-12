@@ -1132,7 +1132,7 @@ $(document).ready(function () {
 	$(window).on('scroll', function () {
 		// console.log($(window).height());
 		if($("#_desktop_cart").is(':visible')){
-			if ($(this).scrollTop() > 10) {
+			if ($(this).scrollTop() > 100) {
 				$('#header').addClass("header_omg_im_scrolled");
 				$('.lenin_header').addClass('lenin_header_fixed');
 			} else {
