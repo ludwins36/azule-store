@@ -10704,7 +10704,7 @@ body#checkout #footer {
 }
 
 .product-prices .tax-shipping-delivery-label {
-    font-size: .8125rem;
+    font-size: .9rem;
     color: #7a7a7a
 }
 
@@ -13159,6 +13159,8 @@ br {
     font-family: 'Futura PT' !important;
     font-weight: 300 !important;
     font-style: normal;
+    /* cambio LR */
+    font-size: 1rem !important;
 
 }
 
